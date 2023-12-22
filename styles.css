@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(191, 190, 206);
+    color: rgb(228, 217, 217);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url('Norse-Bold.otf') format('opentype');
+  }
+
+  .logo{
+    font-family: 'NorseBold';
+    font-size: 500px;
+    position: relative;
+    bottom: 1900px;
+    left: 160px;
+    z-index: 1;
+    background-color: black;
+    text-align: center;
+    width: 81vh;
+    left: -1px; 
+    opacity: 0.65; 
+    margin: 0;
+    padding: 0;
+        
+  }
+
+
+  .form-div{
+    background-color: rgb(163, 117, 58);
+    width: 100vh;
+    color: black;
+    font-weight: 1000;
+    margin: 0;
+    flex: 2;
+    padding: 0;
+  
+  }
+
+  .photo{
+    flex: 1;
+    width: 100vh;
+    margin: 0;
+    flex: 1;
+    padding: 0;
+  }
