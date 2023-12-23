@@ -31,7 +31,7 @@ body{
 
 
   .form-div{
-    background-color: rgb(214, 213, 212);
+    background-color: rgb(233, 230, 228);
     width: 100vh;
     color: black;
     font-weight: 900;
@@ -58,6 +58,11 @@ body{
     font-size: 60px;
     background-color: white;
     display:flex;
+    height: 970px;
+    padding: 0;
+    position: relative;
+    bottom: 280px;
+    box-shadow: 0px 20px 8px rgba(0, 0, 0, 0.1); 
   }
 
   .form p, label, input{
@@ -157,4 +162,35 @@ body{
     position: relative;
     bottom: 5730px;
     left: 1400px;
+}
+
+.create{
+  height: 500px;
+}
+
+button{
+  transform: scale(6);
+  position: relative;
+  left: 570px;
+  bottom: 50px;
+  background-color: #596D48;
+  color:#fff;
+  font-weight: 900;
+  border-radius: 7px;
+}
+
+.account{
+  font-size: 50px;
+  position: relative;
+  left: 290px;
+  top: 40px;
+}
+
+.account span{
+  color: #596D48;
+}
+
+input:focus{
+  border-color: blue;
+  box-shadow: 0 0 50px rgba(0, 0, 255, 0.5);
 }
